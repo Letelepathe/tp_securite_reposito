@@ -4,20 +4,21 @@ import java.util.Scanner;
 
 /**
  *
- * @author CHARMENT KONDE
+ * @author Katshioko mayombo
  */
-public class GenerationKey {
+public class GenerationCle {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         Scanner lecture = new Scanner(System.in); 
-        // lire les élèment de la clé K
+        // permet à un utilisateur d'entré la clé k
         int tab1[] = new int[8];
         int tab2[] = new int[8];
+ 
              for (int i = 0; i < 8; i++) {
-            System.out.print("saisissez le bit de position " + i + ":");
+            System.out.print("entrez les elements de la clé num " + i + ":");
             tab1[i] = lecture.nextInt();
         }
         InsertKey(tab1);
