@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Charment KONDE
+ * @author Katshioko mayombo
  */
 public class Algo_chiffrement {
 
